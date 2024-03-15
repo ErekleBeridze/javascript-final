@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe with Time</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div id="board">
+        <div class="cell" data-index="0" onclick="handleMove(0)"></div>
+        <div class="cell" data-index="1" onclick="handleMove(1)"></div>
+        <div class="cell" data-index="2" onclick="handleMove(2)"></div>
+        <div class="cell" data-index="3" onclick="handleMove(3)"></div>
+        <div class="cell" data-index="4" onclick="handleMove(4)"></div>
+        <div class="cell" data-index="5" onclick="handleMove(5)"></div>
+        <div class="cell" data-index="6" onclick="handleMove(6)"></div>
+        <div class="cell" data-index="7" onclick="handleMove(7)"></div>
+        <div class="cell" data-index="8" onclick="handleMove(8)"></div>
+    </div>
+    <div id="timer">Time left: <span id="timer-value">10</span> seconds</div>
+    <script src="script.js"></script>
+</body>
+</html>
